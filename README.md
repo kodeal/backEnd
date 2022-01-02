@@ -18,6 +18,9 @@ kodeal web page using django
 </details>
 </br>
 
+## Basic Layout
+![image](https://user-images.githubusercontent.com/66625672/147870771-0853ea7c-57bd-48f9-b2a1-71ee739e7e36.png)
+
 ## Contributor
 * [jongseok Kwon](https://github.com/himJJong) <br>
 * [Min](https://github.com/Proals) <br>
