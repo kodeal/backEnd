@@ -19,6 +19,6 @@ kodeal web page using django
 </br>
 
 ## Contributor
-* [himJJong](https://github.com/himJJong) <br>
-* [Proals](https://github.com/Proals) <br>
+* [jongseok Kwon](https://github.com/himJJong) <br>
+* [Min](https://github.com/Proals) <br>
 * [yeseong31](https://github.com/yeseong31) <br>
