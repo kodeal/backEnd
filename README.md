@@ -18,10 +18,6 @@ kodeal web page using django
 </details>
 </br>
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
 ## Contributor
 * [himJJong](https://github.com/himJJong) <br>
 * [Proals](https://github.com/Proals) <br>
