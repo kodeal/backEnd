@@ -2,7 +2,7 @@
 ![Django: Version](https://img.shields.io/badge/Django-3.1.14-blue)
 
 # kodeal backEnd
-2022 컴퓨터공학부 종합설계
+2022 컴퓨터공학부 종합설계 백엔드
 
 kodeal web page using django
 
