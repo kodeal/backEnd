@@ -1,5 +1,6 @@
 ![Python: Version](https://img.shields.io/badge/python-3.9.9-blue)
 ![Django: Version](https://img.shields.io/badge/Django-3.1.14-blue)
+![MariaDB: Version](https://img.shields.io/badge/Django-10.6.5-blue)
 
 # kodeal backEnd
 2022 컴퓨터공학부 종합설계 백엔드
