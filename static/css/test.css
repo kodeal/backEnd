@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: 500px;
+}
+
+.container-in-box {
+    width: 1000px;
+    height: 100%;
+    align-items: center;
+}
+
+#login {
+    padding: 3px 20px;
+    margin-top: 500px;
+    font-size: 15px;
+    margin-right: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    background: #131D3D;
+    transition: 0.3s;
+    letter-spacing: 2px;
+    border-radius: 17px;
+    border: none;
+}
