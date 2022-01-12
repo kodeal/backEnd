@@ -9,11 +9,10 @@
     align-items: center;
 }
 
-#login {
+.btn-login {
     padding: 3px 20px;
-    margin-top: 500px;
     font-size: 15px;
-    margin-right: 25px;
+    margin: 20px;
     display: inline-block;
     cursor: pointer;
     color: white;
