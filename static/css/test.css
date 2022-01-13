@@ -23,3 +23,13 @@
     border-radius: 17px;
     border: none;
 }
+
+.nav-1 {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+
+.nav-h1 {
+    margin: 0px;
+}
