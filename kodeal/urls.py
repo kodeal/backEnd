@@ -8,6 +8,6 @@ urlpatterns = [
     # main page
     path('', views.index, name='index'),
 
-    # login page
-    path('login/', views.login_main, name='login_main'),   # 로그인 페이지
+    # common page
+    path('common/', views.login_main, name='login_main'),   # 로그인 페이지
 ]

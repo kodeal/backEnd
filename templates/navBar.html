@@ -1,0 +1,20 @@
+<!-- 내비게이션 바 -->
+<div class="nav-1">
+    <!-- 홈으로 돌아가기 -->
+    <div style="float: left;">
+        <button type="button"
+                onclick="location.href='{% url 'kodeal:index' %}'">홈으로</button>
+    </div>
+    <!-- 로그인 여부 확인 -->
+    <div class="nav-item" style="float:left; margin-left: 20px;">
+        {% if user.is_authenticated %}
+            <a href="{% url 'common:logout_django' %}">{{ user.username }}(Logout)</a>
+        {% else %}
+            <a href="{% url 'common:login_django' %}">Login</a>
+        {% endif %}
+    </div>
+    <!-- 회원가입 -->
+    <div style="float:left; margin-left: 20px;">
+        <a href="{% url 'common:signup' %}">회원가입</a>
+    </div>
+</div>

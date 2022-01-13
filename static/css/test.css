@@ -23,3 +23,9 @@
     border-radius: 17px;
     border: none;
 }
+
+.nav-1 {
+    width: 2000px;
+    float: left;
+    text-align: left;
+}

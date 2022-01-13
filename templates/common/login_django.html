@@ -1,11 +1,13 @@
 {% extends 'base.html' %}
-
 {% block content %}
+
+<h1>로그인 페이지</h1>
 
 <div>
     <form method="post" class="post-form" action="{% url 'common:login_django' %}">
+        <!-- 보안을 위한 난수 생성기 -->
         {% csrf_token %}
-<!--        {% include "form_errors.html" %}-->
+        {% include "form_errors.html" %}
         <div>
             <label for="username"> 사용자 ID </label>
             <input type="text" name="username" id="username"
