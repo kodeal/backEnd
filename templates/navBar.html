@@ -5,16 +5,22 @@
         <button type="button"
                 onclick="location.href='{% url 'kodeal:index' %}'">홈으로</button>
     </div>
-    <!-- 로그인 여부 확인 -->
-    <div class="nav-item" style="float:left; margin-left: 20px;">
+    <!-- 회원가입 -->
+    <div style="float:right; margin-right: 20px;">
+        <a href="{% url 'common:signup' %}">회원가입</a>
+    </div>
+    <!-- Django로 로그인 -->
+    <div class="nav-item" style="float:right; margin-right: 20px;">
         {% if user.is_authenticated %}
             <a href="{% url 'common:logout_django' %}">{{ user.username }}(Logout)</a>
         {% else %}
-            <a href="{% url 'common:login_django' %}">Login</a>
+            <a href="{% url 'common:login_django' %}">Django로 Login</a>
         {% endif %}
     </div>
-    <!-- 회원가입 -->
-    <div style="float:left; margin-left: 20px;">
-        <a href="{% url 'common:signup' %}">회원가입</a>
+    <!-- 일반 로그인 -->
+    <div class="nav-item" style="float:right; margin-right: 20px;">
+        {% if not user.is_authenticated %}
+            <a href="{% url 'common:login_main' %}">일반 Login</a>
+        {% endif %}
     </div>
 </div>
