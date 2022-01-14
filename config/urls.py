@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('kodeal.urls')),  # main page
     path('common/', include('common.urls')),  # common(login)
+    path('google/', include('allauth.urls')),  # common(login)
 ]
