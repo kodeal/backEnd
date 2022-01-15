@@ -1,5 +1,5 @@
 from django.contrib import auth
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
@@ -70,4 +70,3 @@ def login_main(request):
 def logout_main(request):
     auth.logout(request)
     return redirect('/')
-
