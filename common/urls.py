@@ -19,4 +19,9 @@ urlpatterns = [
     # 일반 로그인
     path('login/', login_main, name='login_main'),
     path('logout/', logout_main, name='logout_main'),
+
+    # QnA화면
+    path('qna_main/', qna_main, name='qna_main'),
+    path('qna_answer/', qna_answer, name='qna_answer'),
+
 ]
