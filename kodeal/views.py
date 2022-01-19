@@ -3,7 +3,8 @@ from django.shortcuts import render
 import openai
 
 # OpenAI API 키, 항상 비워놓고 push하기
-openai.api_key = ''
+with open('kodeal/OpenAI_Codex_Key.txt', encoding='utf-8') as f:
+    openai.api_key = f.readline()
 openai.Engine.list()
 
 
