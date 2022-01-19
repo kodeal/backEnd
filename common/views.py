@@ -64,9 +64,9 @@ def signup2(request):
 # 일반 로그인
 def login_main(request):
     if request.method == 'POST':
-        username = request.POST['username']
+        user_id = request.POST['user_id']
         password = request.POST['password']
-        user = authenticate(request, username=username, password=password)
+        user = authenticate(request, user_id=user_id, password=password)
 
         if user is None:
             return render(request, 'common/login.html', {'error': 'username 또는 password가 틀렸습니다.'})
