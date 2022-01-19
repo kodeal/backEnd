@@ -3,7 +3,7 @@ from django.shortcuts import render
 import openai
 
 # OpenAI API 키, 항상 비워놓고 push하기
-openai.api_key = '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'
+openai.api_key = ''
 openai.Engine.list()
 
 

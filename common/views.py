@@ -4,11 +4,6 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
 import os
-import openai
-
-# OpenAI API 키, 항상 비워놓고 push하기
-openai.api_key = ''
-openai.Engine.list()
 
 
 # home
