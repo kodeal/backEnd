@@ -5,8 +5,7 @@ from django.db import models
 class UserModel(models.Model):
     user_name = models.CharField(max_length=50, verbose_name='사용자 이름')
     user_id = models.CharField(max_length=50, primary_key=True, verbose_name='사용자 아이디')
-    password1 = models.CharField(max_length=200, blank=True, null=True, verbose_name='사용자 비밀번호')
-    password2 = models.CharField(max_length=200, blank=True, null=True, verbose_name='사용자 비밀번호(확인)')
+    password1 = models.CharField(max_length=200, verbose_name='사용자 비밀번호')
     email = models.EmailField(max_length=100, unique=True, verbose_name='이메일')
 
     def __str__(self):
