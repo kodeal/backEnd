@@ -25,7 +25,7 @@ def qna_main(request):
         user_text = request.POST['text_area']  # 질문 영역
         # codex 변환 과정
         response = openai.Completion.create(
-            engine="davinci-codex",
+            engine="text-davinci-001",
             prompt=user_text,
             temperature=0,
             max_tokens=128,
@@ -37,7 +37,6 @@ def qna_main(request):
         return render(request, 'common/qna_answer.html', {'response': response})
     else:
         return render(request, 'common/qna_main.html')
-
 
 # common page
 def login_main(request):

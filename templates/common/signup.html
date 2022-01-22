@@ -10,17 +10,17 @@
         {% csrf_token %}
         {% include "form_errors.html" %}
         <div style="float:left; margin-right:20px;">
-            <label for="user_name"> 사용자 이름 </label>
-            <input type="text" name="user_name" id="user_name"
-                   value="{{ form.user_name.value|default_if_none:'' }}">
+            <label for="username"> 사용자 이름 </label>
+            <input type="text" name="username" id="username"
+                   value="{{ form.username.value|default_if_none:'' }}">
         </div>
         <div>
             <button type="button" value="signup"> 이름 중복확인 </button>
         </div>
         <div style="float:left; margin-right:20px;">
-            <label for="user_id"> 사용자 ID </label>
-            <input type="text" name="user_id" id="user_id"
-                   value="{{ form.user_id.value|default_if_none:'' }}">
+            <label for="userid"> 사용자 ID </label>
+            <input type="text" name="userid" id="userid"
+                   value="{{ form.userid.value|default_if_none:'' }}">
         </div>
         <div>
             <button type="button" value="signup"> 아이디 중복확인 </button>
