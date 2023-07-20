@@ -57,7 +57,7 @@ platformdirs==2.5.1
 pluggy==1.0.0
 py==1.11.0
 pycparser==2.21
-Pygments==2.11.2
+Pygments==2.15.0
 PyJWT==2.4.0
 pylint==2.12.2
 pyparsing==3.0.7
