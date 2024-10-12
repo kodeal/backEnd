@@ -1,7 +1,7 @@
 ![Python: Version](https://img.shields.io/badge/python-3.8.10-blue)
 ![Django: Version](https://img.shields.io/badge/Django-3.1.14-blue)
 ![MariaDB: Version](https://img.shields.io/badge/MariaDB-10.3.32-blue)
-![Amazon S3](https://img.shields.io/badge/AmazonS3-569A31.svg?logo=amazon-s3&logoColor=white)
+
 
 # kodeal backEnd
 ### 2022 컴퓨터공학부 종합설계 S2-1 백엔드
@@ -61,7 +61,7 @@ kodeal web page using django<br/>
 * ![Django](https://img.shields.io/badge/Django-092E20.svg?style=flat-square&logo=Django&logoColor=white)
 * ![MariaDB](https://img.shields.io/badge/MariaDB-003545.svg?style=flat-square&logo=MariaDB&logoColor=white)
 * ![OpenAI](https://img.shields.io/badge/OpenAI-412991.svg?style=flat-square&logo=OpenAI&logoColor=white)
-* ![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=Microsoft-azure&logoColor=white)  
+
   
 </details>
 
